@@ -1,0 +1,32 @@
+THIS IS FOR TRACKER DASHBOARD (CG ENS URU Project from T12, Pertaining to Monitoring Trainees with special status/case)
+
+Database Name: trainees
+Tables: 
+1. hatol (id, stat)
+2. list (id, rank, fullname, age, class,rtc,mr,remarks,acadsess,reso,is_terminated,date_endorsed,so,date,status,nature_termi,year)
+3. logs (id, activity, tid, remarks, old_status,new_status,date)
+4. orders (id,orig_name,tmp_name,remarks,date,is_nhq)
+5. resolution (id,orig_name,tmp_name,remarks,date)
+6. rtc (id,rtc_name,logo,rtc_short,rtc_dir,rtc_acd,uname,pword,is_active,is_female)
+7. rtc_class (id,rtc_id,class_name,total,cd,acd,is_active)
+8. status (id, stat)
+
+***Once you successfully Imported the Open Document Spreadsheet, Add the following in the table "list":
+
+1. id (INT, 11) Auto Increment (AI);
+2. date (Timestamp, Current Timestamp);
+3. is_terminated (TEXT, 1);
+
+NOTE: Make sure walang naka "As defined" na column sa kahit anong table, magkaka-error sa online version.
+
+Contact CG ENS URU in case of technical problems: 09754164351
+
+Kung sino mas mataas na number sa SQL file (trainees), yun ang pinaka latest.
+
+UPDATE:
+1. Can Add Class Name
+2. Can Add Case Status Name
+3. Can Register Trainee
+
+4. Upload Special Orders
+5. Upload Resolution

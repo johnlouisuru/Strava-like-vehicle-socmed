@@ -1,0 +1,35 @@
+Database name: erc
+
+nasa folder din nato ang .sql
+UPDATE:
+
+Company SIDE:
+1. Add Outage;
+2. Resume Outage;
+3. View all Under Outage;
+4. View all Resumed Outage;
+5. Can Login & Logout;
+
+Admin SIDE:
+1. Dashboard displays:
+	- Unplanned Outage today;
+	- Planned Outage today;
+	- Outage Event Yesterday;
+	- All Unresumed Outage Event;
+	- All Recent Activities from Companies
+
+2. Display All Outage Event From January to December of the current year.
+
+SYSTEM: Can generate all the Logs from the Company re: 
+1. Added Outage Event, 
+2. Resumed Outage event; 
+3. Unresumed Outage Event;
+
+admin account:
+1. admin - admin
+
+
+company account:
+1. saol - admin
+2. engen - admin
+3. volta - admin

@@ -1,1 +1,3 @@
 Ito unang edit ko na ipu-push natin papunta Github Repo.
+
+Ito naman ay edit from Github, ipu-pull mo papuntang Local
